@@ -1,0 +1,27 @@
+{
+  "name": "swarm-worker",
+  "version": "1.0.0",
+  "description": "Worker for swarmd",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredallard/swarm-worker.git"
+  },
+  "keywords": [
+    "swarm",
+    "computercraft"
+  ],
+  "author": "Jared Allard <jaredallard@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredallard/swarm-worker/issues"
+  },
+  "homepage": "https://github.com/jaredallard/swarm-worker#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "kue": "^0.10.5"
+  }
+}
